@@ -1,120 +1,133 @@
 body {
-    width: 1200px;
-           }
+  width: 1200px;
+}
 
 .wrapper {
-    margin-left: 155px;
-    margin-right: 85px;
-    background-image: linear-gradient(90deg, #fadae1 37.50%, #ffffff 37.50%, #ffffff 50%, #fadae1 50%, #fadae1 87.50%, #ffffff 87.50%, #ffffff 100%);
-    background-size: 160.00px 160.00px;
+  margin-left: 160px;
+  margin-right: 85px;
+  background-image: linear-gradient(
+    90deg,
+    #fadae1 37.5%,
+    #ffffff 37.5%,
+    #ffffff 50%,
+    #fadae1 50%,
+    #fadae1 87.5%,
+    #ffffff 87.5%,
+    #ffffff 100%
+  );
+  background-size: 160px 160px;
 }
 
 .text {
-    font-size: 12px;
-    letter-spacing: 5px;
-    line-height: 30px;
-    color: #898f99;
-    font-weight: 700;
-    text-align: right;
-    width: 25%;
-    padding-top: 145px;
-    margin: auto;
-    font-family: "Montserrat"
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #898f99;
+  font-weight: 700;
+  text-align: center;
+  width: 25%;
+  padding-top: 128px;
+  margin: auto;
+  font-family: "Montserrat";
 }
 
 header {
-    text-transform: uppercase;
-    width: 65%;
-    margin: auto;
-    text-align: center;
-   }
-
-h1 {
-    font-size: 48px;
-    letter-spacing: 5px;
-    line-height: 30px;
-    color: #0ec8cb;
-    font-weight: 400;
-    font-family: "Montserrat";
-    text-align: center;
+  text-transform: uppercase;
+  width: 65%;
+  margin: auto;
+  text-align: center;
 }
 
-.header__text>.text__after__h {
-    padding-bottom: 100px;
+h1 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #0ec8cb;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+  margin: 24px 17px 0px 0px;
+}
 
-    margin: auto;
-    width: 511px;
-    font-size: 18px;
-    line-height: 30px;
-    color: #999999;
-    font-weight: 400;
-    font-family: "PT Sans", serif;
-    text-align: center;
+.header__text > .text__after__h {
+  padding-bottom: 100px;
+  padding-top: 37px;
+  padding-right: 10px;
+  margin: auto;
+  width: 511px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "PT Sans", serif;
+  text-align: center;
 }
 
 .block {
-    width: 960px;
-    display: flex;
-    align-items: center;
-   }
-
-.block>div {
-    text-align: center;
-    width: 25%;
-    height: auto;
-    display:inline-block;
-    margin-top: 30px;
+  width: 960px;
+  display: flex;
+  align-items: center;
 }
 
-.block>div:hover {
-    color: white;
-    background-color: #3ec8cb;
+.block > div {
+  text-align: center;
+  width: 25%;
+  height: 420px;
+  display: inline-block;
+  margin-top: 30px;
+  padding-top: 32px;
+}
+
+.block > div:hover {
+  color: white;
+  background-color: #3ec8cb;
 }
 
 i {
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 200;
-    width: 65px;
-    height: 62px;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 200;
+  width: 72px;
+  height: 62px;
 }
 
 .icon__four {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 h2 {
-    text-transform: uppercase;
-    width: 170px;
-    margin-bottom: 60px;
-    margin-top: 50px;
-    padding-left: 34px;
-    font-size: 21px;
-    color: #1b1b1b;
-    font-family: Montserrat;
-    text-align: center;
+  text-transform: uppercase;
+  width: 170px;
+  margin-bottom: 22px;
+  margin-top: 50px;
+  padding-left: 34px;
+  font-size: 21px;
+  color: #1b1b1b;
+  font-family: Montserrat;
+  text-align: center;
 }
 
 div.class__two h2 {
-    margin-top: 30px;
-    margin-bottom: 45px;
-    width: 167px;
-    padding: 0 35px 0 35px;
+  margin-top: 35px;
+  margin-bottom: 22px;
+  width: 167px;
+  padding: 0 35px 0 35px;
 }
 
 .block__text {
-    width: 170px;
-    height: auto;
-    font-size: 14px;
-    line-height: 22px;
-    color: #777777;
-    font-weight: 400;
-    font-family: "PT Sans";
-    margin: auto;
+  width: 170px;
+  height: auto;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+  font-weight: 400;
+  font-family: "PT Sans";
+  margin: auto;
+  text-align: center;
 }
 
 .block__footer {
-    width: 80%;
-    height: 120px;
-    margin: auto;
+  width: 80%;
+  height: 120px;
+  margin: auto;
 }
